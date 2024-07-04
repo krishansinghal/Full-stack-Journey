@@ -1,0 +1,43 @@
+/* Css for footer */
+.footer1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%;
+    align-items: center;
+    gap: 4px;
+    margin-top: 20px;
+    padding: 20px;
+    
+   
+    
+}
+/* css for footer icon setting */
+.foot-icon{
+    width: 40px;
+    height: 40px;
+    margin: 0px;
+    
+}
+
+/* css for footer decoration */
+.foot-item{
+    flex: 7;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3em;
+    gap: 7px;
+    font-weight: 700px;
+}
+
+/* Css for footer anchor tags */
+.foot-item a{
+    /* text-align: center; */
+    text-decoration: none;
+    color: #1a0404 ;
+}
+.foot-item a:hover{
+    color: green;
+}

@@ -1,0 +1,27 @@
+body{
+    background-image:linear-gradient(to right, #a6aaa5, #e6e99e, #e7bfea);
+}
+
+.Hobbies{
+    margin: 2em;
+}
+
+.headex{
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 1.2em;
+}
+
+.language{
+    margin: 2em;
+    margin-bottom: 17em;
+}
+
+.extra-list li{
+    margin: 0.2em;
+}
+.extra-list span{
+    font-weight: 600;
+}
+

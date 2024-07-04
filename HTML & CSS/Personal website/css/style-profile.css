@@ -1,0 +1,79 @@
+body{
+    background-image:linear-gradient(to right, #a6aaa5, #e6e99e, #e7bfea);
+}
+
+
+
+hr{
+    border: 1px solid gray;
+    margin-top: 10px ;
+    margin-bottom: 10px;
+}
+/* CSS for profile div */
+.profile{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 20px;
+    align-items: center;
+    gap: 2em;
+    
+    padding: 2em;
+}
+
+
+/* profile pic settings */
+
+.ppic{
+    width: 9em;
+    border: 2px solid black;
+    border-radius: 50%;
+    transition: 1s;
+
+}
+
+.ppic:hover{
+        width: 20em;
+        border: none;
+        border-radius: 0%;
+}
+
+.name{
+    font-size: 3em;
+}
+.addr{
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* css for key-points section */
+.key-points{
+    border: 2px dotted gray;
+    border-radius: 10px;
+    width: 90%;
+    padding: 10px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size: 1.2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.key-points span{
+    color: rgb(18, 21, 197);
+}
+
+/* css for objective div */
+.obj{
+    font-size: 1.4em;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+.objhead{
+    text-decoration: underline;
+}
+
+
+
+
+

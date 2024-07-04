@@ -1,0 +1,53 @@
+body{
+    background-image:linear-gradient(to right, #d5dad3, #787872, #908491);
+}
+
+
+hr{
+    border: 1px solid gray;
+    margin-top: 10px ;
+    margin-bottom: 10px;
+}
+
+/* CSS for skill-div */
+.skill{
+    margin-bottom: 12em;
+}
+.skill-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    color: black;
+    width: 40%;
+    margin-left: 5em;
+    
+    
+
+}
+.skill-heading{
+    font-size: 1.2em;
+    font-weight: 600;
+    text-decoration: underline;
+}
+.rating{
+    font-size: 1.2em;
+    font-weight: 600;
+    text-decoration: underline;
+}
+.rating-span{
+    font-size: .6em;
+    text-decoration: none;
+}
+
+.skill h2{
+    color: rgb(2, 2, 2);
+    margin-left: 3.2em;
+    text-decoration: underline;
+}
+.star-pic{
+    width: 10px; 
+}
+

@@ -1,0 +1,63 @@
+body{
+    background-image:linear-gradient(to right, #a6aaa5, #e6e99e, #e7bfea);
+}
+
+
+hr{
+    border: 1px solid gray;
+    margin-top: 10px ;
+    margin-bottom: 10px;
+}
+
+/* CSS for profile div */
+/* pg degree css */
+.education{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    align-items: center;
+    gap: 1em;
+    padding: 2em;
+} 
+
+.post-grad{
+    border: 1px dashed gray;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.main1{
+    display: flex;
+    gap: 1em;
+    align-items: center;
+   
+}
+
+.pg-details{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 2fr 2fr 2fr;
+    gap: 5px;
+    color: black;
+}
+
+.pg-img{
+    width: 5em;
+}
+.dg-name{
+    font-size: 1.5em;
+    color: black;
+}
+.pgd{
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.sc-img{
+    width: 4em;
+}
+
+
+

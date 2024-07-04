@@ -1,0 +1,65 @@
+body{
+    background-image:linear-gradient(to right, #a6aaa5, #e6e99e, #e7bfea);
+}
+
+/* css code for internship */
+.it-main{
+    margin-left: 2em;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+.internship{
+    color: black;
+    font-size: 1.5em;
+    margin-left: 10px ;
+    text-decoration: underline;
+}
+.it-box{
+    display: flex;
+    width: 100%;
+    gap: 3em;
+    flex-wrap: wrap;
+    margin-top: 1.5em;
+   
+}
+.border-box{
+    border: 1px dotted gray;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    width: 40em;
+}
+
+.calender-img{
+    width: 1.5em;
+}
+.time{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: 600;
+}
+.title{
+    font-size: 20px;
+    font-weight: 600;
+}
+.inst-name{
+    color: rgb(7, 30, 178);
+    margin-top: 5px;
+    font-size: 18px;
+}
+.loc{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.loc-img{
+    width: 1.5em;
+}
+.dscrptn ul li{
+    margin-bottom: 5px;
+}
+
+
+
